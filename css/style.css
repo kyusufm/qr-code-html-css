@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: 'Outfit', sans-serif; /* Use the 'Outfit' font for the entire document */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures the container takes the full height of the viewport */
+    background-color: #f0f0f0;
+}
+
+p {
+    font-size: 15px;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.container {
+    width: auto;
+    text-align: center;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 16px; /* Adjust the border radius as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    padding: 16px;
+    max-width: 250px; /* Set a maximum width for responsiveness */
+    width: 100%;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+/* collor */
+.white {
+    color: hsl(0, 0%, 100%);
+}
+.light-gray {
+    color: hsl(212, 45%, 89%);
+}
+.grayish-blue {
+    color: hsl(220, 15%, 55%);
+}
+.dark-blue {
+    color: hsl(218, 44%, 22%);
+}
+
+/* Media query for desktop devices with a minimum width of 1440px */
+@media (min-width: 1440px) {
+    body {
+        /* Your desktop styles go here */
+        font-size: 18px;
+        /* Add more desktop-specific styles as needed */
+    }
+}
+
+/* Media query for mobile devices with a maximum width of 375px */
+@media (max-width: 375px) {
+    body {
+        /* Your mobile styles go here */
+        font-size: 14px;
+        /* Add more mobile-specific styles as needed */
+    }
+}

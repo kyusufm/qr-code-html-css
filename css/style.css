@@ -26,7 +26,7 @@ p {
     border-radius: 16px; /* Adjust the border radius as needed */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
     padding: 16px;
-    max-width: 250px; /* Set a maximum width for responsiveness */
+    max-width: 280px; /* Set a maximum width for responsiveness */
     width: 100%;
 }
 

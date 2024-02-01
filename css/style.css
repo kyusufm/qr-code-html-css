@@ -5,7 +5,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh; /* This ensures the container takes the full height of the viewport */
-    background-color: hsl(220, 15%, 55%);
+    background-color: hsl(212, 45%, 89%);
 }
 
 p {

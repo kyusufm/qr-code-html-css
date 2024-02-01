@@ -8,11 +8,13 @@ body{
     background-color: hsl(212, 45%, 89%);
 }
 
-p {
+.desc {
     font-size: 15px;
+    font-weight: 400;
 }
 
 .title{
+    font-size: 19px;
     font-weight: 700;
 }
 

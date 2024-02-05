@@ -8,6 +8,18 @@ body{
     background-color: hsl(212, 45%, 89%);
 }
 
+
+
+main {
+    width: auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 16px; /* Adjust the border radius as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    padding: 16px;
+    max-width: 280px; /* Set a maximum width for responsiveness */
+    width: 100%;
+}
 .desc {
     font-size: 15px;
     font-weight: 400;
@@ -17,21 +29,6 @@ body{
     font-size: 19px;
     font-weight: 700;
 }
-
-.container {
-    width: auto;
-    text-align: center;
-}
-
-.box {
-    background-color: #fff;
-    border-radius: 16px; /* Adjust the border radius as needed */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
-    padding: 16px;
-    max-width: 280px; /* Set a maximum width for responsiveness */
-    width: 100%;
-}
-
 .image {
     max-width: 100%;
     border-radius: 12px;
